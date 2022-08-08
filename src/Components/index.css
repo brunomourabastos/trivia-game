@@ -1,0 +1,62 @@
+.main-questions {
+  font-family: Indie Flower , cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+.trivia-category {
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.trivia-data {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alternative-btns {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Indie Flower , cursive;
+  font-size: 18px;
+  gap: 20px;
+  height: 80px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.correct-choice {
+  border: 3px solid rgb(6, 240, 15);
+  font-family: Indie Flower , cursive;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.correct-choice:hover {
+  box-shadow: 0 0 10px 0 #a2bb82 inset , 0 0 10px 4px #a2bb82;
+}
+
+.wrong-choice {
+  border: 3px solid red;
+  font-family: Indie Flower , cursive;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.wrong-choice:hover {
+  box-shadow: 0 0 10px 0 #e95368 inset , 0 0 10px 4px #e95368;
+}
+
+.default {
+  font-family: Indie Flower , cursive;
+  font-size: 18px;
+  width: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap') ;
+

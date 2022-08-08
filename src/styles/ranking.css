@@ -1,0 +1,9 @@
+.main-ranking {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-ranking {
+  margin-left: 47%;
+  margin-top: 50px;
+}

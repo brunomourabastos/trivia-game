@@ -1,0 +1,16 @@
+.main-ranking {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trivia-data {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-feedback {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}

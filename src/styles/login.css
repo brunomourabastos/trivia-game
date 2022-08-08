@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@keyframes color-rotate {
+
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+body {
+  background-color: #dce3e6;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.main-login {
+  text-align: center;
+}
+
+.header-title {
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.header-title:hover {
+  animation: color-rotate 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+  width: 15%;
+}
+
+.input-login {
+  border-radius: 4px;
+  font-family: Indie Flower , cursive;
+  font-size: 20px;
+  height: 32px;
+  margin: 10px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 4px;
+  font-family: Indie Flower , cursive;
+  font-size: 16px;
+  height: 32px;
+  margin: 10px;
+}
+
+.footer-login {
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  bottom: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 500;
+  height: 50px;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap') ;
