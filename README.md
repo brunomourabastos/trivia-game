@@ -24,18 +24,13 @@ Após clonar:
 
 > Frontend
 ```bash
-cd src/
+cd trivia-game/
 npm install
 ``` 
 ## Executando aplicação
 
-* Para rodar o back-end:
-
-  ```
-  cd api/ && npm start
-  ```
 * Para rodar o front-end:
 
   ```
-    cd src/ && npm start
+    cd trivia-game/ && npm start
   ```
