@@ -7,7 +7,7 @@ Após 5 perguntas, será direcionado para página de Score, mostrando a pontuaç
 Possui página de ranking, utilizando armazenamento no localstorage para rankear.
 
 
-## Técnologias usadas
+## Tecnologias usadas
 
 Front-end:
 > Desenvolvido usando: React, Redux, CSS3, HTML5, ES6
