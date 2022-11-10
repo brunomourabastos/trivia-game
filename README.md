@@ -1,7 +1,7 @@
 # Project Trivia
 
 # Contexto
-jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux, utilizando a [API do Trivia](https://opentdb.com/api_config.php).
+Jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux, utilizando a [API do Trivia](https://opentdb.com/api_config.php).
 Possível realizar login. Se o email estiver cadastrado no site Gravater, a foto associada ao perfil será mostrada.
 Após 5 perguntas, será direcionado para página de Score, mostrando a pontuação.
 Possui página de ranking, utilizando armazenamento no localstorage para rankear.
